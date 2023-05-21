@@ -3,4 +3,10 @@ from django.http import HttpResponse
 
 # Create your views here.
 def say_hello(request):
-    return HttpResponse('Hello world')
+    x = calculate()
+    return render(request, 'hello.html', {'name': 'Ben'})
+
+def calculate():
+    x = 1
+    y = 2
+    return x
