@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-#@($6)246p*adm*2c=f^_1*!6%%3-7tvxv2b7ot-$0mc(et*@3
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-bdiamond2-firstdjangopr-7m79uowghdp.ws-us99.gitpod.io']
+ALLOWED_HOSTS = ['8000-bdiamond2-firstdjangopr-7m79uowghdp.ws-us101.gitpod.io']
 
 
 # Application definition
@@ -53,7 +53,7 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'mysite.urls'
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://8000-bdiamond2-firstdjangopr-7m79uowghdp.ws-us99.gitpod.io']
+    'https://8000-bdiamond2-firstdjangopr-7m79uowghdp.ws-us101.gitpod.io']
 
 TEMPLATES = [
     {
